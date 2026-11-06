@@ -1,0 +1,13 @@
+#categorização de atleta por idade
+#uma federação de esportes precisa classicar seus atletas em categorias com base na idade digitada
+
+idade = int(input("Digite a idade do atleta: "))
+
+if idade < 13:
+    categoria = "Infantil"
+elif idade < 18:
+    categoria = "Juvenil"
+else:
+    categoria = "Adulto"
+
+print(f"O atleta pertence à categoria: {categoria}")
